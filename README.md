@@ -7,3 +7,5 @@
      git clone https://github.com/AhmadIAlawneh/intrusion-detection-pipeline.git
      cd intrusion-detection-pipeline
      Install dependencies: pip install -r requirements.txt
+
+     you need to install the dataset from here: https://shorturl.at/8WWhl
