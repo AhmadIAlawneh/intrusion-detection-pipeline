@@ -1,0 +1,9 @@
+# Data files (avoid uploading large datasets)
+*.csv
+*.pkl
+*.pickle
+*.feather
+*.parquet
+data/
+datasets/
+
