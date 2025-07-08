@@ -2,13 +2,13 @@ import logging
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier # Removed AdaBoost as it wasn't in your original list of classifiers for training
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neural_network import MLPClassifier
 from xgboost import XGBClassifier
 
 CONFIG = {
-    "data_path": "train_test_network (2).csv", # Make sure this file exists in the same directory or provide full path
+    "data_path": "train_test_network (2).csv", # The dataset path
     "results_dir": "results",
     "random_state": 42,
     "test_size": 0.2,
@@ -26,8 +26,6 @@ CONFIG = {
         "ANN (MLP)": MLPClassifier(max_iter=300, random_state=42, hidden_layer_sizes=(64,32), early_stopping=True, n_iter_no_change=10),
         "XGBoost": XGBClassifier(random_state=42, use_label_encoder=False, eval_metric='logloss', n_jobs=-1), # Default eval_metric, will be overridden in o4
         "Gradient Boosting": GradientBoostingClassifier(random_state=42, n_estimators=100),
-        # Add AdaBoost and ExtraTrees here if you want to include them as classifiers:
-        # "AdaBoost": AdaBoostClassifier(random_state=42),
-        # "ExtraTrees": ExtraTreesClassifier(random_state=42, n_jobs=-1, n_estimators=100),
+        
     }
 }
