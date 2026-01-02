@@ -21,5 +21,5 @@ pip install -r requirements.txt
 ```
 
 ## Note
-This repository represents a research-oriented implementation of the proposed pipeline.
-Some experimental parameters and results may differ slightly from the MSc thesis due to refactoring, reproducibility considerations, or extended experiments.
+This repository is a research-based implementation of the suggested pipeline.
+Some parameters and results may differ from the MSc thesis because of refactoring, reproducibility, or lengthy experiments.
