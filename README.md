@@ -20,6 +20,6 @@ cd intrusion-detection-pipeline
 pip install -r requirements.txt
 ```
 
-Note
+##Note
 This repository represents a research-oriented implementation of the proposed pipeline.
 Some experimental parameters and results may differ slightly from the MSc thesis due to refactoring, reproducibility considerations, or extended experiments.
