@@ -9,3 +9,8 @@
      Install dependencies: pip install -r requirements.txt
 
      you need to install the dataset from here: https://shorturl.at/8WWhl
+
+
+     
+Note: This repository represents a research-oriented implementation of the proposed pipeline. 
+Some experimental parameters and results may differ slightly from the MSc thesis due to refactoring, reproducibility considerations, or extended experiments.
