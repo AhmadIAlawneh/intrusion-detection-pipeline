@@ -9,8 +9,8 @@ The pipeline follows a basic experimental workflow, including:
 - Training and evaluation of multiple machine learning models (e.g., Logistic Regression, Random Forest, XGBoost)
 
 ## Dataset
-The dataset consists of network traffic features (e.g., src_ip, dst_port, protocol, flow statistics) commonly used for IoT intrusion detection.
-The dataset can be downloaded from:
+The dataset consists of network traffic features (e.g., src_ip, dst_port, protocol, flow statistics) commonly used for IoT intrusion detection.  
+The dataset can be downloaded from:  
 https://shorturl.at/8WWhl
 
 ## Installation
@@ -18,3 +18,5 @@ https://shorturl.at/8WWhl
 git clone https://github.com/AhmadIAlawneh/intrusion-detection-pipeline.git
 cd intrusion-detection-pipeline
 pip install -r requirements.txt
+```
+
