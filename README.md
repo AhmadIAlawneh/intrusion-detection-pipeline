@@ -18,7 +18,7 @@ https://shorturl.at/8WWhl
 git clone https://github.com/AhmadIAlawneh/intrusion-detection-pipeline.git
 cd intrusion-detection-pipeline
 pip install -r requirements.txt
----
+##
 Note
 
 This repository represents a research-oriented implementation of the proposed pipeline.
