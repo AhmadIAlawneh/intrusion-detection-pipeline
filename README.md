@@ -11,7 +11,7 @@ The pipeline follows a basic experimental workflow, including:
 ## Dataset Information
 The experiments are conducted using the **ToN-IoT Dataset**.
 - **Original Source:** [UNSW Canberra Cyber - ToN-IoT Datasets](https://research.unsw.edu.au/projects/toniot-datasets)
-- **Data Used:** Network traffic features including flow statistics and protocol information.
+- **Data Used:** Network Dataset.
 ## Code Information & Methodology
 The pipeline is structured into sequential modules to ensure reproducibility:
 1. `01_load_explore.py`: Data ingestion and initial distribution analysis.
