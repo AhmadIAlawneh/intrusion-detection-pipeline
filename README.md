@@ -30,7 +30,7 @@ python main_pipeline.py
 
 ## Requirements
 
-- Python 3.9+
+- Python 3.12
 - pandas
 - numpy
 - scikit-learn
