@@ -33,6 +33,32 @@ Execute the Pipeline
 ```bash
 python main_pipeline.py
 ```
+
+## Requirements
+
+- Python 3.9+
+- pandas
+- numpy
+- scikit-learn
+- imbalanced-learn (SMOTE)
+- xgboost
+- matplotlib
+- seaborn
+
+## Methodology
+
+1. Data Exploration and Distribution Analysis
+2. Data Cleaning and Preprocessing
+3. Feature Selection using:
+   - Pearson Correlation
+   - Spearman Correlation
+   - Chi-Square
+   - Mutual Information
+4. Feature Ranking and Top-K Selection
+5. Class Imbalance Handling using SMOTE
+6. Model Training (8 classifiers)
+7. Evaluation using Accuracy, Precision, Recall, F1-score
+8. Comparative Analysis between Full Features vs Selected Features
 ## Citation
 
 If you use this repository, please cite:
