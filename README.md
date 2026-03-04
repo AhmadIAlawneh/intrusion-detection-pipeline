@@ -1,13 +1,7 @@
 # A Comparative Study of Feature Selection Techniques for Efficient Network Intrusion Detection in IoT Systems
-This repository contains the modular machine learning pipeline developed for our research on Network Intrusion Detection Systems (NIDS) in IoT environments. The project focuses on balancing high detection accuracy with computational efficiency by reducing high-dimensional feature spaces (from 900+ features after preprocessing to 15-20) using various feature selection techniques.
-The pipeline follows a basic experimental workflow, including:
-- Data loading and exploratory analysis
-- Data preprocessing and normalization
-- Feature selection to reduce dimensionality
-- Training and evaluation of multiple machine learning models (e.g., Logistic Regression, Random Forest etc.)
+This repository contains the modular machine learning pipeline developed for our research on Network Intrusion Detection Systems (NIDS) in IoT environments. The pipeline follows a modular experimental workflow from preprocessing to evaluation.
 
 ## Dataset
-## Dataset Information
 The experiments are conducted using the **ToN-IoT Dataset**.
 - **Original Source:** [UNSW Canberra Cyber - ToN-IoT Datasets](https://research.unsw.edu.au/projects/toniot-datasets)
 - **Data Used:** Network Dataset.
@@ -47,18 +41,35 @@ python main_pipeline.py
 
 ## Methodology
 
-1. Data Exploration and Distribution Analysis
-2. Data Cleaning and Preprocessing
-3. Feature Selection using:
-   - Pearson Correlation
-   - Spearman Correlation
-   - Chi-Square
-   - Mutual Information
-4. Feature Ranking and Top-K Selection
-5. Class Imbalance Handling using SMOTE
-6. Model Training (8 classifiers)
-7. Evaluation using Accuracy, Precision, Recall, F1-score
-8. Comparative Analysis between Full Features vs Selected Features
+1. Data Exploration and Distribution Analysis  
+   - Statistical inspection and class distribution analysis of the network dataset.
+
+2. Data Cleaning and Preprocessing  
+   - Handling missing values and inconsistencies.  
+   - Encoding categorical variables using One-Hot Encoding.  
+   - Feature scaling and normalization.
+
+3. Feature Selection  
+   - Feature ranking using:
+     - Pearson Correlation  
+     - Spearman Correlation  
+     - Chi-Square Test  
+     - Mutual Information  
+
+4. Feature Ranking and Top-K Selection  
+   - Selection of the top-ranked 15–20 features based on predefined thresholds.
+
+5. Class Imbalance Handling  
+   - Application of SMOTE (Synthetic Minority Over-sampling Technique) to balance class distribution.
+
+6. Model Training  
+   - Training and hyperparameter configuration of eight machine learning classifiers.
+
+7. Model Evaluation  
+   - Performance assessment using Accuracy, Precision, Recall, and F1-score.
+
+8. Comparative Analysis  
+   - Performance comparison between models trained on the full post-preprocessing feature set (900+ features) and the reduced feature subsets.
 ## Citation
 
 If you use this repository, please cite:
