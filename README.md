@@ -70,12 +70,13 @@ python main_pipeline.py
 
 8. Comparative Analysis  
    - Performance comparison between models trained on the full post-preprocessing feature set (900+ features) and the reduced feature subsets.
+   
 ## Citation
 
 If you use this repository, please cite:
 
-Alawneh, A. (2025).INTRUSION DETECTION IN IOT USING MACHINE LEARNING: A FOCUS 
-ON THE NETWORK LAYER WITH THE TON-IOT DATASET . MSc Thesis.
+Alawneh, A. (2025). *Intrusion Detection in IoT Using Machine Learning: 
+A Focus on the Network Layer with the ToN-IoT Dataset.* MSc Thesis.
 
 Dataset:
 ToN-IoT Dataset – UNSW Canberra Cyber.
