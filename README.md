@@ -34,6 +34,16 @@ Execute the Pipeline
 ```bash
 python main_pipeline.py
 ```
+## Citation
+
+If you use this repository, please cite:
+
+Alawneh, A. (2025).INTRUSION DETECTION IN IOT USING MACHINE LEARNING: A FOCUS 
+ON THE NETWORK LAYER WITH THE TON-IOT DATASET . MSc Thesis.
+
+Dataset:
+ToN-IoT Dataset – UNSW Canberra Cyber.
+
 ## Note
 This repository is a research-based implementation of the suggested pipeline.
 Some parameters and results may differ from the MSc thesis because of refactoring, reproducibility, or lengthy experiments.
