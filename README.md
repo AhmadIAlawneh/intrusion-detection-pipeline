@@ -31,7 +31,7 @@ pip install -r requirements.txt
 Place the train_test_network.csv (from the ToN-IoT source) in the root directory.
 Execute the Pipeline
 ```bash
-python baseline_pipeline.py
+python main.py
 ```
 ## Note
 This repository is a research-based implementation of the suggested pipeline.
