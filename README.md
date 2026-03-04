@@ -1,6 +1,6 @@
 A Comparative Study of Feature Selection Techniques for Efficient Network Intrusion Detection in IoT Systems
 
-This repository contains the modular machine learning pipeline developed for our research on Network Intrusion Detection Systems (NIDS) in IoT environments. The project focuses on balancing high detection accuracy with computational efficiency by reducing high-dimensional feature spaces (from 900+ features to 15-20) using various feature selection techniques.
+This repository contains the modular machine learning pipeline developed for our research on Network Intrusion Detection Systems (NIDS) in IoT environments. The project focuses on balancing high detection accuracy with computational efficiency by reducing high-dimensional feature spaces (from 900+ features after preprocessing to 15-20) using various feature selection techniques.
 The pipeline follows a basic experimental workflow, including:
 - Data loading and exploratory analysis
 - Data preprocessing and normalization
@@ -19,7 +19,8 @@ The pipeline is structured into sequential modules to ensure reproducibility:
 3. `03_feature_selection.py`: Implementation of 4 ranking methods (Pearson, Spearman, Chi-Square, and Mutual Information).
 4. `04_train_evaluate.py`: Training engine using **SMOTE** for balancing and evaluating 8 classifiers (Random Forest, XGBoost, etc.).
 5. `oo_config.py`: Centralized configuration for hyperparameters and thresholds.
-6. `baseline_pipeline.py`: Main script to execute the full experimental workflow.
+6. `baseline_pipeline.py`:Train all 8 classifiers using the full original feature set (928+ features after preprocessing).
+7. `main_pipeline.py`:Main script to execute the full experimental workflow.
 
 ## Usage Instructions
 
