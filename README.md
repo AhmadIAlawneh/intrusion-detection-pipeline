@@ -1,5 +1,4 @@
-A Comparative Study of Feature Selection Techniques for Efficient Network Intrusion Detection in IoT Systems
-
+# A Comparative Study of Feature Selection Techniques for Efficient Network Intrusion Detection in IoT Systems
 This repository contains the modular machine learning pipeline developed for our research on Network Intrusion Detection Systems (NIDS) in IoT environments. The project focuses on balancing high detection accuracy with computational efficiency by reducing high-dimensional feature spaces (from 900+ features after preprocessing to 15-20) using various feature selection techniques.
 The pipeline follows a basic experimental workflow, including:
 - Data loading and exploratory analysis
