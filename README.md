@@ -5,7 +5,7 @@ The pipeline follows a basic experimental workflow, including:
 - Data loading and exploratory analysis
 - Data preprocessing and normalization
 - Feature selection to reduce dimensionality
-- Training and evaluation of multiple machine learning models (e.g., Logistic Regression, Random Forest)
+- Training and evaluation of multiple machine learning models (e.g., Logistic Regression, Random Forest etc.)
 
 ## Dataset
 ## Dataset Information
