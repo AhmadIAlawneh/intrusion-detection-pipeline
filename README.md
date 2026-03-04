@@ -21,13 +21,18 @@ The pipeline is structured into sequential modules to ensure reproducibility:
 5. `oo_config.py`: Centralized configuration for hyperparameters and thresholds.
 6. `baseline_pipeline.py`: Main script to execute the full experimental workflow.
 
-## Installation
+## Usage Instructions
+
 ```bash
 git clone https://github.com/AhmadIAlawneh/intrusion-detection-pipeline.git
 cd intrusion-detection-pipeline
 pip install -r requirements.txt
 ```
-
+Place the train_test_network.csv (from the ToN-IoT source) in the root directory.
+Execute the Pipeline
+```bash
+python baseline_pipeline.py
+```
 ## Note
 This repository is a research-based implementation of the suggested pipeline.
 Some parameters and results may differ from the MSc thesis because of refactoring, reproducibility, or lengthy experiments.
