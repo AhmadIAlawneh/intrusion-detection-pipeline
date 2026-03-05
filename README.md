@@ -31,14 +31,24 @@ python main_pipeline.py
 
 ## Requirements
 
-- Python 3.12
-- pandas
+The project requires Python 3.12 and the following libraries:
+
 - numpy
+- pandas
 - scikit-learn
-- imbalanced-learn (SMOTE)
+- scipy
 - xgboost
+- imbalanced-learn
 - matplotlib
 - seaborn
+- tqdm
+- python-dotenv
+- PyYAML
+
+All dependencies can be installed using:
+
+```bash
+pip install -r requirements.txt
 
 ## Methodology
 
